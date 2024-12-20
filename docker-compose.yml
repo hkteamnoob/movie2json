@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  bot:
+    build: .
+    environment:
+      - API_ID=1814711
+      - API_HASH=a14491784f65c3bc76afad00c5f280ba
+      - BOT_TOKEN=7920468776:AAEdU_0VNzCvVVT8U96oC1qoV89IGz2Q6qE
+    volumes:
+      - .:/app
+    restart: always
